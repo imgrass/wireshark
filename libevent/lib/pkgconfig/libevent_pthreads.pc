@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/home/eouylei/imgrass/tools/wireshark/libevent
+exec_prefix=/home/eouylei/imgrass/tools/wireshark/libevent
+libdir=/home/eouylei/imgrass/tools/wireshark/libevent/lib
+includedir=/home/eouylei/imgrass/tools/wireshark/libevent/include
+
+Name: libevent_pthreads
+Description: libevent_pthreads adds pthreads-based threading support to libevent
+Version: 2.2.0
+Requires: libevent
+Conflicts:
+Libs: -L${libdir} -levent_pthreads
+Libs.private:  
+Cflags: -I${includedir} 
+

@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/home/eouylei/imgrass/tools/wireshark/libevent
+exec_prefix=/home/eouylei/imgrass/tools/wireshark/libevent
+libdir=/home/eouylei/imgrass/tools/wireshark/libevent/lib
+includedir=/home/eouylei/imgrass/tools/wireshark/libevent/include
+
+Name: libevent
+Description: libevent is an asynchronous notification event loop library
+Version: 2.2.0
+Requires:
+Conflicts:
+Libs: -L${libdir} -levent_core -levent_extra
+Libs.private: 
+Cflags: -I${includedir}
+
