@@ -1,4 +1,7 @@
+# the tmp files produced by gcc compliling.
+build/
+workspace/
 *.o
-test/
-tmp/
-wireshark
+
+# the link file
+lnk_*
